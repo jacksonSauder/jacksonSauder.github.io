@@ -1,0 +1,28 @@
+THE VELVET STATIC - WEBSITE ASSETS
+====================================
+Place the following files in this directory:
+
+IMAGES (required for full layout):
+  bg-tile.gif          - repeating background texture (dark, subtle noise/stars pattern)
+  divider.gif          - horizontal pixel separator bar (~600x6px, purple/dark)
+  star.gif             - small spinning or static star icon (~12x12px)
+  band-playing.jpg     - band live photo (290x216px, displayed in CRT TV frame)
+  under-construction.gif - classic "under construction" animated gif (~24x24px)
+
+OPTIONAL (referenced but gracefully absent):
+  tv-frame.png         - CRT TV frame overlay (not used in current CSS implementation)
+
+MP3 FOLDER (/assets/mp3/):
+  ghost-signal-01.mp3 through ghost-signal-06.mp3
+  television-static-01-pale-rooms.mp3 through television-static-11-transmission.mp3
+  demo-static.mp3
+  demo-pale.mp3
+  demo-unnamed.mp3
+  ghost-signal-ep-full.zip
+  television-static-full.zip
+
+NOTE: The CRT TV is rendered entirely with CSS box-model styling and does not
+require tv-frame.png to display. The band-playing.jpg will show broken-image
+icon inside the TV screen until replaced with a real photo.
+
+All images should be kept small for period-accurate slow loading times. ;)
